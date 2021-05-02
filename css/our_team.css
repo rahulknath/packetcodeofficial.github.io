@@ -1,0 +1,63 @@
+main{
+    background-color: #F0F4F8;
+    text-align: center;
+}
+.team .container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#cccccc4d;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-body{
+    background-color: white;
+}
+.card img{
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.image-box{
+    position: relative;
+}
+.image-box img{
+    width:12rem
+
+}
+.followup{
+    position: absolute;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+.followup i:hover{
+    color: #f85a1b;
+}
+.card:hover .followup{
+    opacity: 1;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.h_2::after{
+    content:"";
+    display:block;
+    position:absolute;
+    width:100px;
+    height:3px;
+    background-color:#F85A1B;
+    margin-left:39.5%;
+}
