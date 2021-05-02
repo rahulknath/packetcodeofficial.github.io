@@ -55,6 +55,10 @@ nav{
     color: #F85A1B !important;
     transition: 1s;
 }
+.navbar-toggler .fas{
+    font-size: 1.1rem;
+    padding-top: 3px;
+}
 /* navbar end */
 
 /* carousel */
@@ -62,6 +66,7 @@ nav{
     min-width: auto;
     min-height: auto;
 }
+
 /* carousel end */
 
 /* thought */
